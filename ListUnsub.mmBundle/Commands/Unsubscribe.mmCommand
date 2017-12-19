@@ -1,0 +1,13 @@
+{	
+  name          = "List Unsubscribe";
+	uuid          = "BCDD9C3D-7D22-4FB8-84A6-3894B2C1F6EC";
+	conditions    = "list-unsubscribe exists";
+	input         = "none";
+	environment   = 'MM_LIST_UNSUB=${List-Unsubscribe}\nMM_TO=${to}\nMM_MID=${Message-Id}\n';	
+	output        = "actions";
+	keyEquivalent = '^u';
+	script        =
+'#!/bin/bash
+"${MM_BUNDLE_SUPPORT}/bin/unsub.pl"
+';
+}

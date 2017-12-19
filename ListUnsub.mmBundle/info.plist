@@ -1,0 +1,6 @@
+{	"contactEmailRot13" = "cerantun@erantuna.pbz";
+	contactName = "Padraic Renaghan";
+	description = "Quick Mailing List Unsubscribe";
+	name = "ListUnsub";
+	uuid = "2D3B4268-6241-47E5-AFEF-A6CBE3777CF1";
+}
